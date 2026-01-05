@@ -1,0 +1,35 @@
+body{
+    background-color: hsl(148, 98%, 23%) ;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 5rem;
+    color: hsl(43, 74%, 49%) ;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    padding: 15px;
+    background-color:  hsl(43, 74%, 49%);
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color:hsl(148, 98%, 23%);
+    cursor: pointer;
+}
